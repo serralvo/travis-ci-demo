@@ -5,7 +5,7 @@ target 'DemoTravisCI' do
     
   use_frameworks!
 
-  pod 'SwiftyJSON'
+  pod 'ReachabilitySwift', '~> 3'
 
   target 'DemoTravisCITests' do
     inherit! :search_paths
