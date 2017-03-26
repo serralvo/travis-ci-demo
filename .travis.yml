@@ -1,8 +1,6 @@
 language: objective-c
 osx_image: xcode8.2
 
-before_install:
-  - pod install
 
 script:
   - xcodebuild -workspace DemoTravisCI.xcworkspace  -scheme 'DemoTravisCI' -sdk iphonesimulator build
