@@ -1,6 +1,7 @@
 language: objective-c
 osx_image: xcode8.2
 
+install: sh install.sh
 
 script:
   - xcodebuild -workspace DemoTravisCI.xcworkspace  -scheme 'DemoTravisCI' -sdk iphonesimulator build
